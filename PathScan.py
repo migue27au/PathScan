@@ -222,11 +222,11 @@ def connect(params):
         return url, method, "error"
 
 def showHelp():
-    print("Usage:python3 pathscan.py -u <url (schema and resource '/' is required) [Options]")
+    print("Usage:python3 PathScan.py -u <url (schema and resource '/' is required) [Options]")
     print("Examples:")
-    print(" - python3 pathscan.py -u https://www.google.com -d d.txt -m 110001 -s 200,201")
+    print(" - python3 PathScan.py -u https://www.google.com -d d.txt -m 110001 -s 200,201")
     print("\tperform a GET, POST, and PATCH using the dictionary d.txt to\n\thttps://www.google.com and must show responses with status code 200 and 201.")
-    print(" - python3 pathscan.py -u https://www.google.com -d d.txt -e e.txt -o save.txt")
+    print(" - python3 PathScan.py -u https://www.google.com -d d.txt -e e.txt -o save.txt")
     print("\tperform a scan using the dictionary d.txt and extensions e.txt. Finally\n\tsave the output in the file save.txt.")
     print("Options")
     print("  -h: show this help.")
